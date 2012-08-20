@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="Shift_JIS"  ?>
+<!DOCTYPE Version SYSTEM "file:D:\Java\workspace2\Ytel.VersionViewer\ReleaseNote.dtd">
+<Version>
+  <Application name="DBConnect"/>
+  <Major number="2" note="複数テキストエリアに対応">
+    <Minor number="6">
+      <Revision number="0" note="Undo/Redoの実装" description="Ctrl + Z, Ctrl + Y で実行可能"/>
+      <Revision number="0" note="SQLをファイルに出力する機能の実装"/>
+    </Minor>
+    <Minor number="7" note="デザインの見直し" description="OK/Cancelの扱いを統一した等, ショートカットの衝突を解消"/>
+    <Minor number="8" note="検索結果のファイル出力機能を実装" description="一覧グリッドを右クリックすることでポップアップメニューが出ます。"/>
+    <Minor number="9">
+      <Revision number="0" note="クラス間デザインの見直し" description="処理実装をインターフェースを追加し、表示実装から切り離した"/>
+      <Revision number="0" note="コードコメントの記載追加"/>
+      <Revision number="1" note="バージョン情報表示の追加" description="この、この画面のこと。"/>
+    </Minor>
+  </Major>
+  <Major number="3">
+    <Minor number="0" note="パッケージ構成変更" description="汎用クラスとDBConnectをパッケージとして独立, 汎用クラス群をjarとしてパッケージ化"/>
+    <Minor number="1" note="パッケージ構成変更" description="ViewとModuleの切り分け">
+      <Revision number="0" note="モジュール部分の代表クラスを作成"/>
+      <Revision number="0" note="例外をモジュールパートで完結させる変更" description="メッセージをModule側が担当しているが、View側で出すかModule側で出すかはなお検討の余地あり。"/>
+      <Revision number="1" note="バグフィックス" description="検索結果出力ポップアップメニューが出ないバグの修正。(@Ver.3.0)"/>
+      <Revision number="2" note="アクセラレータの設定:F2(タブ名称変更)" description="Utilityパッケージ変更"/>
+      <Revision number="3" note="ツールチップヘルプの追加" description="ステータスバーに長いメッセージがある場合に、画面を大きくしなければ読めない問題の解消。"/>
+      <Revision number="4" note="Editor - Open_File - 一ファイルに複数SQLが記載されている場合の、分割機能修正" description="1行目のSQLが分割されない問題を解消"/>
+      <Revision number="5" note="Ctrl + W: 検索結果のダイアログ表示" description="機能追加：※※ OutOfMemoryに対応するか？"/>
+      <Revision number="6" note="バージョン情報の表示方法を変更" />
+      <Revision number="7" note="設定ファイルの差替機能を追加" description=".properties拡張子のファイルはすべて読み込み対象"/>
+      <Revision number="8" note="カラム一覧の取得方法変更：置換え文字列を定義し、文字列置き換えで対応" description="MySQLがFROM句でテーブル名を指定するため。"/>
+      <Revision number="9" note="設定ファイルの分轄(システム設定とユーザ設定)" />
+      <Revision number="10" note="テーブルビュー/カラムビュー 表示動作変更" description="カラムを見比べたいので。 テーブルビュー右/中クリックで、カラムビューを新規に開く。" />
+      <Revision number="11" note="設定ファイルの仕様変更" description="templateファイル指定を可能にした。" />
+    </Minor>
+    <Minor number="2" note="機能追加:" description="Tableビューに、絞込み条件を追加"  >
+      <Revision number="0" note="前方一致, Case sensiive"/>
+      <Revision number="1" note="正規表現"/>
+    </Minor>
+    <Minor number="3" note="機能追加" description="CLOB対応">
+      <Revision number="0" note="QueryResultViewFactory作成と、CLOB用Converter作成" />
+      <Revision number="1" note="ステータスバーの見直し" />
+    </Minor>
+  </Major>
+</Version>

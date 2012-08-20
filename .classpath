@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="lib/commons-betwixt-0.7.jar"/>
+	<classpathentry kind="lib" path="lib/commons-digester.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Ytel.VersionViewer"/>
+	<classpathentry kind="lib" path="D:/Java/workspace2/libs/sqljdbc4.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Ytel.Utility"/>
+	<classpathentry kind="lib" path="D:/Java/workspace2/libs/ojdbc6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
