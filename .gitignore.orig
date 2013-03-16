@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 lib/commons-beanutils.jar
 lib/commons-betwixt-0.7.jar
 lib/commons-beanutils.jar
 lib/commons-digester.jar
 lib/commons-logging.jar
 *.properties
-bin/
+=======
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+>>>>>>> ed1939bd3c9f1dae922f6adf40e0226b934037ed
