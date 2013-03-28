@@ -37,7 +37,7 @@ public class Configure {
 		private final String versionInfoFileName;
 
 		private SimpleSystemConfigure() {
-			ResourceBundle bundle = ResourceBundle.getBundle("ytel.dbconnect.config.system");
+			ResourceBundle bundle = ResourceBundle.getBundle("jp.gr.java_conf.t_era.dbconnect.config.system");
 			this.alertMessage = bundle.getString("ALERT_MESSAGE");
 			this.appTitle = bundle.getString("APP_TITLE");
 			this.defaultOverWriteSqlFile = Boolean.parseBoolean(bundle.getString("DEFAULT_OVER_WRITE_SQL_FILE"));
