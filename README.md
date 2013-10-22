@@ -1,7 +1,7 @@
 DBConnect
 =========
 
-Java, databse client using jdbc.
+Java6, databse client using jdbc.
 
 Swing GUIによる、JDBCクライアントツールです。<br>
 Javaプログラミング時に、JDBCのレスポンスを素のままで観察したかったことから作成を始め、あれこれ機能追加をしてたらこうなりました。<br>
