@@ -3,5 +3,5 @@ lib/commons-betwixt-0.7.jar
 lib/commons-beanutils.jar
 lib/commons-digester.jar
 lib/commons-logging.jar
-*.properties
+/*.properties
 bin/
